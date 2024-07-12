@@ -20,12 +20,13 @@ def get_encode_make_model(car_make,car_model):
 
 
 # Load the saved model
-with open(r'C:\Users\hp\Downloads\xgbr.pkl', 'rb') as file:
+with open('xgbr.pkl', 'rb') as file:
   xgbr = pk.load(file)
 
 # Define the features
-st.title("Estimation du Prix d'Une Voiture d'Occasion")
-#st.image()
+st.title("Estimation de Prix d'Une Voiture d'Occasion")
+#Add image
+st.image("car_720p.jpg")
 with st.form(key="001"):
 
 

@@ -20,7 +20,7 @@ def get_encode_make_model(car_make,car_model):
 
 
 # Load the saved model
-with open('/models/xgbr.pkl', 'rb') as file:
+with open('models/xgbr.pkl', 'rb') as file:
   xgbr = pk.load(file)
 
 # Define the features

@@ -1,0 +1,12 @@
+streamlit==1.32.2
+pandas==2.2.1
+numpy==1.26.0
+pathlib==1.0.1
+st_star_rating
+streamlit_extras
+Pillow==10.2.0
+requests==2.31.0
+scikit-learn==1.5.1
+xgboost==2.1.0
+
+
